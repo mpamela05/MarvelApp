@@ -31,7 +31,7 @@ namespace MarvelApp.Controllers
                 if (timInDb == null)
                     return new JsonResult(NotFound());
 
-                timInDb = tim;
+                _context.Entry(timInDb).CurrentValues.SetValues(tim);
             }
 
             _context.SaveChanges();

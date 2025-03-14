@@ -31,7 +31,7 @@ namespace MarvelApp.Controllers
                 if (herojInDb == null)
                     return new JsonResult(NotFound());
 
-                herojInDb = heroj;
+                _context.Entry(herojInDb).CurrentValues.SetValues(heroj);
             }
 
             _context.SaveChanges();

@@ -30,7 +30,8 @@ namespace MarvelApp.Controllers
                 if (identitetInDb == null)
                     return new JsonResult(NotFound());
 
-                identitetInDb = identitet;
+                _context.Entry(identitetInDb).CurrentValues.SetValues(identitet);
+
             }
             _context.SaveChanges();
 
