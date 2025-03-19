@@ -1,0 +1,11 @@
+
+h1{
+font-size: 13rem;
+font-weight: bold;
+background-image: url(../assets/pozadina.jpg);
+background-size: cover;
+background-clip: text;
+color: transparent;
+text-align: center;
+  }
+ 

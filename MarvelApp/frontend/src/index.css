@@ -1,0 +1,50 @@
+body{
+  background-color:rgb(29, 28, 28);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.tajtl{
+  font-family:Arial, sans-serif;
+  color: #f40707;
+  text-align: center;
+  margin-top: 250px;
+  font-size: 3rem;
+}
+
+button{
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 10px, 20px;
+  color: rgb(46, 44, 44);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+  background-color: #f60a0a;
+}
+
+label {
+  font-size: x-large;
+  color:rgb(242, 12, 12);
+  text-align: center;
+  border: 2px solid ;
+  border-radius: 5px;
+}
+
+form {
+  width: 30%;
+  margin: auto;
+  
+}
+form div {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+ h3{
+  color: white
+ }
+ h2{
+  color: white;
+ }
